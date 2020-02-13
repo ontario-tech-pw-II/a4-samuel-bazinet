@@ -59,9 +59,7 @@ Circle Circle::operator++(int)
 ostream & operator<<(ostream &out, const Circle &c)
 {
 
-  out << "x = " << c.x << endl;
-  out << "y = " << c.y << endl;
-  out << "r = " << c.r << endl;
+  out << "Circle =(" << c.x << "," << c.y << "," << c.r << ")" << endl;
   return out;
 }
 
